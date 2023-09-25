@@ -1,12 +1,14 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import Design from './Components/Design/Design';
+import DesignPanel from './Components/DesignPanel/DesignPanel';
 
 function App() {
   return (
     <div className="box-border bg-slate-800 h-screen">
       <Navbar></Navbar>
-      <Design></Design>
+      <DesignPanel>
+        <h1 className="text-white text-3xl w-full">SVG Gradient Background</h1>
+      </DesignPanel>
     </div>
   );
 }
